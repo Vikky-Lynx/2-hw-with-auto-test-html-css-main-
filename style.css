@@ -25,10 +25,6 @@ header span {
 
 .main-section {
     /* Стили для первой секции */
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    color: #303030;
 }
 
 .main-title {
