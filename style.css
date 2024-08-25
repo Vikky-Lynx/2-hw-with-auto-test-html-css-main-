@@ -6,6 +6,8 @@
 }
 
 body {
+    font-style: normal;
+    line-height: normal;
 }
 
 header {
@@ -25,14 +27,24 @@ header span {
 
 .main-section {
     /* Стили для первой секции */
+    width: 1615px;
+    height: 1024px;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
 }
 
 .main-image {
@@ -42,14 +54,29 @@ header span {
 
 .about-section {
     /* Стили для второй секции */
+    width: 1440px;
+    height: 683px;
 }
 
 select {
     /* Стили для выпадающего списка */
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 12px;
+    background: url(./assets/ep_arrow-down.svg) no-repeat right 15px top 50%;
+    appearance: none;
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
 }
 
 .frameworks-list {
