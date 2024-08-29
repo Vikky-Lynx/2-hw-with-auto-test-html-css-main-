@@ -55,10 +55,9 @@ header span {
 .about-section {
     /* Стили для второй секции */
     font-family: "Inter", sans-serif;
-    padding: 100px 0px;
     width: vw;
-    height: 36px;
-    padding: 100px 0;
+    min-height: vh;
+    padding: 100px 0 100px;
 }
 
 select {
@@ -82,38 +81,86 @@ select {
     font-weight: 700;
     font-size: 24px;
     color: #303030;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    width: 80px;
+    height: 57px;
+    background: #fff;
+    list-style: none;
+    list-style-image: url(./assets/Vector.png);
+    fill: #2965f1;
     padding-left: 20px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    width: 670px;
+    height: 57px;
+    background: #fff;
+    padding-left: 20px;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
 }
 
 .text-field {
     /* Стили для односточного поля ввода текста */
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
+    margin-right: 9px;
 }
 
 .btn {
     /* Стили для кнопки */
+    border-radius: 5px;
+    border-style: none;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 27px 9px 29px;
 }
 
 .line {
     /* Стили для линии */
     border-top: 1px solid rgba(48, 48, 48, 0.3);
-    width: 1440px;
-    height: 0px;
+    width: vw;
+    margin: 60px 0px;
 }
 
 table {
     /* Стили для таблицы */
+    width: 300px;
+    height: 196px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #303030;
 }
 
 th, td {
