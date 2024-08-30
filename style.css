@@ -86,7 +86,7 @@ select {
     list-style: none;
     list-style-image: url(./assets/Vector.png);
     fill: #2965f1;
-    padding-left: 0px 20px;
+    padding: 0px 20px;
 }
 
 .books-list {
@@ -96,7 +96,7 @@ select {
     width: 670px;
     height: 57px;
     background: #fff;
-    padding-left: 0px 20px;
+    padding: 0px 20px;
 }
 
 .label {
